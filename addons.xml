@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.soap4.me" name="Soap4.me" provider-name="info@soap4.me" version="1.0.3">
+<addons><addon id="plugin.video.soap4.me" name="Soap4.me" provider-name="info@soap4.me" version="1.0.4">
     <requires>
-        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="xbmc.python" version="2.14.0" />
     </requires>
     <extension library="addon.py" point="xbmc.python.pluginsource" provides="video">
         <provides>video</provides>
