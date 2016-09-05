@@ -1,0 +1,53 @@
+v1.0.10
+- Fix nasty bug with Player
+
+v1.0.9
+- Add support Kodi 17
+
+v1.0.8
+- Add last episodes menu
+
+v1.0.7
+- Add watching/unwatching menu
+- Add sorting method by last episode
+
+v1.0.6
+- Fix bug with first usage
+
+v1.0.5
+- Fix bug with first usage
+
+v1.0.4
+- Add support for Kodi 13+
+
+v1.0.3
+- Test repository
+
+v1.0.2
+- Fix light tag for Kodi 15.x
+
+v1.0.1
+- Last 20 episodes
+- Covers for episodes
+- New navigation in plugin
+
+v1.0.0
+- Use api version 2
+- FullHD support
+- Save watched position on server
+- Full refactoring
+
+v0.4.0
+- Add automatic choosing audio and subtitle streams
+- Changes in settings
+- Refactoring
+
+v0.3.1
+- Add information for adding in repo
+
+v0.3.0
+- Fixing bugs
+- Add marks for episodes
+
+v0.2.0
+- Initial version
