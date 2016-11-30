@@ -14,4 +14,14 @@
         <platform>all</platform>
         <website>http://soap4.me</website>
   </extension>
+</addon><addon id="service.xbmc.soap4me" name="Soap4me web proxy" provider-name="eschava" version="0.1.0">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+    </requires>
+    <extension library="service.py" point="xbmc.service" start="login" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Soap4.me web proxy</summary>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
 </addon></addons>
