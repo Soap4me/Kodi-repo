@@ -24,4 +24,9 @@
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     </extension>
+    <extension point="xbmc.addon.repository">
+      <info>http://example.com/addons/addons.xml</info>
+      <checksum>http://example.com/addons/addons.xml.md5</checksum>
+      <datadir>http://example.com/addons/</datadir>
+    </extension>
 </addon></addons>
