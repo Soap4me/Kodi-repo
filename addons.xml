@@ -25,8 +25,8 @@
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     </extension>
     <extension point="xbmc.addon.repository">
-      <info>http://example.com/addons/addons.xml</info>
-      <checksum>http://example.com/addons/addons.xml.md5</checksum>
-      <datadir>http://example.com/addons/</datadir>
+      <info>https://github.com/ufian/soap4me-repo/raw/master/addons.xml</info>
+      <checksum>https://github.com/ufian/soap4me-repo/raw/master/addons.xml.md5</checksum>
+      <datadir>https://github.com/ufian/soap4me-repo/raw/master/</datadir>
     </extension>
 </addon></addons>
