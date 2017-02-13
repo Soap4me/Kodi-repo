@@ -169,6 +169,7 @@ def fetch_addon_from_git(addon_location, target_folder):
 
         with open(archive_path + '.md5', 'w') as sig:
             sig.write(zipmd5(archive_path))
+            sig.write('\n')
         
         copy_metadata_files(
             clone_source_folder, addon_target_folder, addon_metadata)
@@ -334,6 +335,7 @@ def create_repository(
     digest = hashlib.md5(info_contents).hexdigest()
     with open(checksum_path, 'w') as sig:
         sig.write(digest)
+        sig.write('\n')
 
 
 def main():
