@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="service.xbmc.soap4me"
        name="Soap4me web proxy"
-       version="0.1.0"
+       version="0.2.0"
        provider-name="eschava">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
     <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Soap4.me web proxy</summary>
         <platform>all</platform>
+        <website>http://soap4.me</website>
+        <source>https://github.com/eschava/soap4me-proxy</source>
+        <email>eschava@gmail.com</email>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    </extension>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/image-01.png</screenshot>
+            <screenshot>resources/image-02.png</screenshot>
+            <screenshot>resources/image-03.png</screenshot>
+        </assets>
+        <summary lang="en">Alternative plugin for soap4.me service</summary>
+        <summary lang="ru">Альтернативный плагин для сервиса soap4.me</summary>
+        <description lang="en">
+            Plugin creates web-server loading list of episodes and shows from soap4.me service and shows them as files/folders using Apache web-server format. Kodi imports all found shows/episodes into internal database using builtin scanner of web source.
+        </description>
+        <description lang="ru">
+            Плагин создает веб-сервер, который загружает список серий и сериалов с сервиса soap4.me и показывает их в виде папок/файлов в формате веб-сервера Apache. Kodi имеет встроенный сканер такого источника и импортирует все найденные сериалы/серии во внутреннюю базу данных
+        </description>
+        <news>v0.2.0 добавлено описание плагина</news>
+  </extension>
 </addon>
