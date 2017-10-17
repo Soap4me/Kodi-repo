@@ -1,0 +1,79 @@
+v1.0.18
+- Add menu for unwatched serials
+- Fix bug with empty list of started episodes
+
+v1.0.17
+- Add 4K support
+- Fix bug
+
+v1.0.16
+- Doesn't use light for not default skin
+
+v1.0.15
+- Fix bug with add/remove soap from my serials
+
+v1.0.14
+- Fix bug
+
+v1.0.13
+- Menu watch/unwatch everywhere in plugin (with eschava)
+
+v1.0.12
+- Add setting for auto open first unwatched season (by eschava)
+
+v1.0.11
+- Add top alive serials
+
+v1.0.10
+- Fix nasty bug with Player
+
+v1.0.9
+- Add support Kodi 17
+
+v1.0.8
+- Add last episodes menu
+
+v1.0.7
+- Add watching/unwatching menu
+- Add sorting method by last episode
+
+v1.0.6
+- Fix bug with first usage
+
+v1.0.5
+- Fix bug with first usage
+
+v1.0.4
+- Add support for Kodi 13+
+
+v1.0.3
+- Test repository
+
+v1.0.2
+- Fix light tag for Kodi 15.x
+
+v1.0.1
+- Last 20 episodes
+- Covers for episodes
+- New navigation in plugin
+
+v1.0.0
+- Use api version 2
+- FullHD support
+- Save watched position on server
+- Full refactoring
+
+v0.4.0
+- Add automatic choosing audio and subtitle streams
+- Changes in settings
+- Refactoring
+
+v0.3.1
+- Add information for adding in repo
+
+v0.3.0
+- Fixing bugs
+- Add marks for episodes
+
+v0.2.0
+- Initial version
