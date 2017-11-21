@@ -14,7 +14,7 @@
         <platform>all</platform>
         <website>http://soap4.me</website>
   </extension>
-</addon><addon id="service.xbmc.soap4me" name="Soap4me web proxy" provider-name="eschava" version="0.3.0">
+</addon><addon id="service.xbmc.soap4me" name="Soap4me web proxy" provider-name="eschava" version="0.3.1">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
     </requires>
@@ -40,7 +40,8 @@
         <description lang="ru">
             Плагин создает веб-сервер, который загружает список серий и сериалов с сервиса soap4.me и показывает их в виде папок/файлов в формате веб-сервера Apache. Kodi имеет встроенный сканер такого источника и импортирует все найденные сериалы/серии во внутреннюю базу данных
         </description>
-        <news>v.0.3.0 синхронизация позиции для серий
+        <news>v0.3.1 опция "Скрывать в листинге веб-сервера просмотренные сериалы"
+            v0.3.0 синхронизация позиции для серий
             v0.2.1 убрал мусор из лога
             v0.2.0 добавлено описание плагина
         </news>
