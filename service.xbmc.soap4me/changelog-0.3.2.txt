@@ -1,0 +1,17 @@
+v0.3.2
+- Improvements for "Hide watched shows" option
+
+v0.3.1
+- Option hiding watched shows from the web-server listing
+
+v0.3.0
+- Synchronize episode position with server
+
+v0.2.1
+- Do not print garbage messages to log
+
+v0.2.0
+- Better description
+
+v0.1.0
+- Initial version
